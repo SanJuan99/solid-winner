@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+article {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+aside {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+  }
+
+.dice {
+    margin: 10px;
+  }
+
+.dots-1 aside {
+    grid-area: 3/3
+  }
+
+.dots-2 aside:nth-child(1) {
+    grid-area: 2/2;
+}
+
+.dots-2 aside:nth-child(2) {
+    grid-area: 4/4
+}
+
+.dots-3 aside:nth-child(1) {
+    grid-area: 2/2;
+}
+
+.dots-3 aside:nth-child(2) {
+    grid-area: 3/3;
+}
+
+.dots-3 aside:nth-child(3) {
+    grid-area: 4/4;
+}
+
+.dots-4 aside:nth-child(1) {
+    grid-area: 2/2;
+}
+
+.dots-4 aside:nth-child(2) {
+    grid-area: 4/2;
+}
+
+.dots-4 aside:nth-child(3) {
+    grid-area: 2/4;
+}
+
+.dots-4 aside:nth-child(4) {
+    grid-area: 4/4;
+}
+
+.dots-5 aside:nth-child(1) {
+    grid-area: 2/2;
+}
+
+.dots-5 aside:nth-child(2) {
+    grid-area: 2/4;
+}
+
+.dots-5 aside:nth-child(3) {
+    grid-area: 3/3;
+}
+
+.dots-5 aside:nth-child(4) {
+    grid-area: 4/2;
+}
+
+.dots-5 aside:nth-child(5) {
+    grid-area: 4/4;
+}
+
+.dots-6 aside:nth-child(1) {
+    grid-area: 2/2;
+}
+
+.dots-6 aside:nth-child(2) {
+    grid-area: 3/2;
+}
+
+.dots-6 aside:nth-child(3) {
+    grid-area: 4/2;
+}
+
+.dots-6 aside:nth-child(4) {
+    grid-area: 2/4;
+}
+
+.dots-6 aside:nth-child(5) {
+    grid-area: 3/4;
+}
+
+.dots-6 aside:nth-child(6) {
+    grid-area: 4/4;
+}
